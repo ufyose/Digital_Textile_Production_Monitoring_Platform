@@ -33,3 +33,11 @@ Sistemin hatalı veriyi reddetmesi ve iş akışının bozulmaması için şu ku
 * `database_schema.sql`: Tüm tablo yapılarını, ilişkileri (Primary/Foreign Key) ve kısıtlamaları içeren MySQL kodu.
 * `Digital-Textile-Production.pdf`: Tasarım sürecini, normalizasyon adımlarını ve mimari detayları anlatan detaylı teknik doküman.
 * `ER_Diagram.png`: Tablolar arasındaki bağlantıları (Crow's Foot Notasyonu) gösteren görsel diyagram.
+
+  ## 📊 Data Analytics & Capacity Forecasting
+Projenin bu aşamasında, veritabanındaki verileri işleyerek işletmeye stratejik öngörüler sunan bir analitik katman ekledim:
+* **Tahminleme:** Python (Pandas) kullanarak geçmiş üretim trendleri üzerinden yıl sonu kapasite tahmini yapıldı.
+* **Görselleştirme:** Matplotlib ile üretim hacmi ve performans verileri profesyonel grafiklere dönüştürüldü.
+* **Veri Yönetimi:** Veriler, sistem güvenliği ve taşınabilirlik adına `örnek_data.csv` dosyası üzerinden dinamik olarak okunmaktadır.
+
+![Production Analysis](uretim_analizi.png)
