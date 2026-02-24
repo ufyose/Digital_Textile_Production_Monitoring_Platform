@@ -34,7 +34,7 @@ Sistemin hatalı veriyi reddetmesi ve iş akışının bozulmaması için şu ku
 * `Digital-Textile-Production.pdf`: Tasarım sürecini, normalizasyon adımlarını ve mimari detayları anlatan detaylı teknik doküman.
 * `ER_Diagram.png`: Tablolar arasındaki bağlantıları (Crow's Foot Notasyonu) gösteren görsel diyagram.
 
-  ## Data Analytics & Capacity Forecasting
+  ## Veri Analitiği ve Kapasite Tahminleme Katmanı
 Projenin bu aşamasında, veritabanındaki verileri işleyerek işletmeye stratejik öngörüler sunan bir analitik katman ekledim:
 * **Tahminleme:** Python (Pandas) kullanarak geçmiş üretim trendleri üzerinden yıl sonu kapasite tahmini yapıldı.
 * **Görselleştirme:** Matplotlib ile üretim hacmi ve performans verileri profesyonel grafiklere dönüştürüldü.
